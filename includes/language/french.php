@@ -15,6 +15,8 @@
 global $LANG;
 $LANG = array (
     'access_level_for_roles' => 'Droit associé des Roles',
+    'admin_script_backup_secret' => 'Clé pour l\'éxecution de la sauvegarde',
+    'admin_script_backup_secret_tip' => 'La clé de sauvegarde doit être fournie pour démarrer la sauvegarde. Elle doit être ajouter en paramètre au fichier script.backup.php. Exemple:scripts.backup.php?key=your_passkey',
     'user_ga_code' => 'Envoyer le code Google Authenticator à l\'utilisateur par email',
     'send_ga_code' => 'Google Authenticator pour l\'utilisateur',
     'error_no_email' => 'Cet utilisateur n\'a pas de courriel de défini !',
